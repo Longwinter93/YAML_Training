@@ -1,0 +1,40 @@
+Person:
+  name: Lucas
+  surname: Longwinter
+  age: 25
+  is_student: false
+  hobbies: #Block Style 
+    - gym
+    - literature
+    - sport
+    - travel
+  favouritebook: ['discipline', 'psychology','biography'] #Flow Style
+  description: > #Folded Block Style
+    A courage young man with full of energy.
+    He likes traveling.
+    He takes care of his family.
+  education: #Mapping of sequence
+    university:
+      - Technical University of Lodz
+      - Faculty of Chemistry
+    activity:
+      - additional foreign internships
+      - doing research
+  before_IT_occupation: #Sequence of Mapping
+    science:
+      - Field: Material Science
+        FirstResearch: Doing at Slovakia
+        SecondResearch: Doing at Czech
+        ThirdResearch: Doing at Sweden
+    business:
+      - Field: Business 
+        FirstExperience: Working as R&D Engineer in a factory
+        SecondExperience: Working as Procurement Specialist in a company
+  current_occupation: 
+    name: Programmer
+    expertise: Data
+    experience: small
+  activity: | # Literal Block Style
+    I work as Data Engineer. I like working with Data.
+    I develop constantly my skills at data fields.
+    Enjoy working with data!

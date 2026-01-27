@@ -1,0 +1,32 @@
+cv:
+  name: Luke Longwinter
+  country: Poland
+  city: Lodz 
+  website: https://github.com/Longwinter93
+  social_networks:
+    - network: LinkedIn
+      username: Luke Longwinter
+    - network: GitHub
+      username: Longwinter93
+  sections:
+    Basic:
+      Welcome to my CV!
+    education:
+      - institution: Technical University of Lodz 
+        area: Chemistry 
+        highlights:
+          - 'Master of Science in Material Science'
+    experience:
+      company: A good company 
+      position: Junior 
+      highlights:
+        - 'Working in a good company'
+    project:
+      - name: A good project 
+        highlights:
+          - 'A good project'
+    nextsection:
+      - title: 'Title of new section'
+        journal: 'Good journal'
+
+      
